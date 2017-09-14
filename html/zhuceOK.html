@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				overflow-x: hidden;
+			}
+			#header-wrap{
+			width: 100%;
+		    height: 230px;
+		   }
+			#main{
+				width: 100%;
+				height: 300px;
+			}
+			#footer-wrap{
+			 width:100%;
+		    height: 480px;
+		   }   
+		
+		  .main-content{
+		  	 width: 1400px;
+		  	 height: 300px;
+		  	 margin: 0 auto;
+		  	 
+		  	 margin-top: 40px;
+		  }
+			.content-all{
+				width: 885px;
+				height: 449px;
+				margin: 0 auto;
+			
+			}	
+		   .content-all-t{
+		   	 width: 885px;
+		   	 height: 37px;
+		   	 border-bottom: 1px solid #666;
+		   	 
+		   }
+		   .content-all-t p{
+		   	 width: 103px;
+		   	 height: 26px;
+		   	 line-height: 30px;
+		   	 text-align: center;
+		   	 font-size: 22px;
+		   	 margin-left: 10px;
+		   }
+		  .denglulog{
+		  	  width: 300px;
+		  	  height: 60px;
+		  	  font-size: 30px;
+		  	  line-height: 50px;
+		  	  text-align: center;
+		  	  margin-left: 50px;
+		  	  margin-top: 30px;
+		  }
+		  .denglulog span{
+		  	 font-weight: 900;
+		  }
+		  .denglulog img{
+		  	 margin-top: 5px;
+		  	 display: inline-block
+		  }
+		  .xinxi{
+		  	width: 600px;
+		  	height:200px;
+		  	font-size: 14px;
+		  	margin-left: 150px;
+		  }
+		  .xinxi p{
+		  	  margin-bottom: 10px;
+		  }
+		   .p3{
+		   	  width: 450px;
+		   }
+		
+		</style>
+	</head>
+    <link rel="stylesheet" href="../css/public.css" />
+	<body>
+		<div id="header-wrap"></div>
+		<div id="main">
+			 <div class="main-content">
+			 	<div class="content-all">
+			 		  <div class="content-all-t">
+			 		  	 <p>注册成功:</p>
+			 		    </div>
+			 		   <div>
+			 		   	 <div class="denglulog">
+			 		   	 	 <img src="../images-tubiao/xbregture.gif" />
+			 		   	 	 <span>注册成功！</span>
+			 		   	 </div>
+			 		   	 <div class="xinxi">
+			 		   	 	   <p class="p1">您可以使用注册的Email地址或手机号码登录风尚购物，并可随时更改帐户信息，祝您购物愉快!</p>
+			 		   	 	   <p class="p2">请完成账户安全验证</p>
+			 		   	 	   <p class="p3">验证手机和邮箱可保护您的账户安全，帮助您快速找回密码，并可接收订单处理等信息。</p>
+			 		   	 </div>
+			 		   </div>
+			 		  
+			 		
+			 
+			 </div>
+		</div>
+		<div id="footer-wrap"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script>
+	          //头部 尾部 加载；
+	   $("#header-wrap").load("pubilc.html #header",function(){
+	   	             $("#fenlei").mouseenter(function(){
+	         	     $("#fenleilist").css("display","block") 
+	         	     
+	         }).mouseleave(function(){
+	         	      $("#fenleilist").css("display","none")   
+	         })
+	       
+	         
+	         $(".list-text").mouseenter(function(){
+	         	     var   index=$(this).index();
+	         	     $(".list-right").eq(index).css("display","block").siblings("list-right").css("display","none")
+	         }).mouseleave(function(){
+	         	     $(".list-right").eq($(this).index()).css("display","none");
+	         })
+	         
+	   	      
+	   	   
+	   	   
+	   	   
+	   });
+	   $("#footer-wrap").load("pubilc.html #footer");
+	   
+</script>

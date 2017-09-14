@@ -1,0 +1,385 @@
+body{
+			background:#fafafa ;
+			overflow-x: hidden;
+		    -webkit-user-select:none;
+		     -moz-user-select:none;
+		      -ms-user-select:none;
+		       user-select:none;
+		}
+		ol li{
+			list-style: none;
+		}
+		
+		#header-wrap{
+			width: 100%;
+		    height: 227px;
+		}
+		#footer-wrap{
+			width:100%;
+		    height: 480px;
+		}
+		#main{
+			width: 100%;
+			height: 500px;
+		}  
+		 #fchuan{
+	     	width: 440px;
+	     	height: 150px;
+	     	border: solid #fc4c65 1px;
+	     	position: absolute;
+	     	 left: 492.5px;
+	     	 top: 100px;
+	     	 z-index: 9999;
+	     }
+	     .hd{
+	     	width: 440px;
+	     	height: 32px;
+	     	font-size: 16px;
+	     	overflow: hidden;
+	     	background: #fc4c65;
+	     	color: white;
+	     }
+	      .hd-del{
+	      	 width: 80px;
+	      	 height: 40px;
+	      	line-height: 30px;
+	      }
+	      .hd-ts{
+	      	width: 100px;
+	      	height: 30px;
+	      	float: left;
+	      	line-height: 30px;
+	      	margin-left: 10px;
+	      	font-size: 14px;
+	      	
+	      	
+	      }
+	      .hd-del{
+	        color: white;
+	     	float:right;
+	     	font-size: 16px;
+	     	line-height: 30px;
+	     	text-align: center;
+	     }
+	     .bd{
+	     	 width: 440px;
+	     	 height: 116px;
+	     	 border: 1px solid red;
+	     	 text-align: center;
+	     }
+		.bd p{
+			 width: 440px;
+			 height: 18px;
+			 margin-top: 30px;
+			 font-size: 12px;
+		}
+		.bd .e_Btn{
+			margin-left: 130px;
+			margin-top: 10px;
+			 width: 195px;
+			 height: 28px;
+			  font-size: 12px;
+		}
+		.f101,.f102{
+			display: block;
+			float: left;
+			line-height: 28px;
+			margin-right: 20px;
+		}
+		    
+		.mian-top{
+			width: 100%;
+			height: 50px;
+		}	
+		.nav1{
+			width: 1200px;
+			margin: 0 auto;
+			height: 65px;
+			border-bottom: 1px solid #D8D8D8;
+			font-size: 12px;
+		}	
+		.nav1 .aa{
+			height: 30px;
+			width: 1000px;
+			overflow: hidden;
+			
+		}
+		.nav1  li{
+			 height: 30px;
+			 float: left;
+			text-align: center;
+			 line-height: 30px;
+		}
+		.mian-body{
+			width: 1200px;
+			height: 460px;
+			margin: 0 auto;
+			
+			margin-top: 20px;
+			position: relative;
+		}
+		.info-left{
+			width: 518px;
+			height: 460px;
+			float: left;
+			
+			
+		}	 
+		.left-xiao{
+			float: left;
+			width: 94px;
+			height: 420px;
+			position: relative;
+			margin-top: 5px;
+			overflow: hidden;
+		
+			
+		}
+		.left-xiao ul{
+			 width: 98px;
+			 height:400px ;
+			 overflow: hidden;
+		}	
+		 
+		.left-xiao li{
+			width: 90px;
+			height: 90px;
+			margin-bottom: 4px;
+			border: 2px solid #cccccc;
+			overflow: hidden;
+		}
+		#xiaotu img{
+			width: 88px;
+			height: 88px;
+		}
+		
+	    .left-big{
+	    	width: 390px;
+	    	height: 390px;
+	    	margin-left: 20px;
+	    	float: left;
+	    	border: 1px solid #cccccc;
+	    	margin-top: 20px;
+	    	overflow: hidden;
+	    	position: relative;
+	    	
+	    }	
+	    .left-big img{
+	    	width: 390px;
+	    	height: 390px;
+	    }
+	    .fangda{
+	    	 overflow: hidden;
+	    	 width: 410px;
+	    	 height: 410px;
+	    	 border: 1px solid #cccccc;
+	    	 position: absolute;
+	    	 left: 520px;
+	    	 top: 20px;
+	    	 display: none;
+	     }
+	     #mask{
+			position:absolute;
+			top:21px;
+			left:116px;
+			width: 170px;
+			height: 170px;
+			background: gray;
+			opacity:0.4 ;	
+			display: none;
+			
+	     }  
+	     .bigImage{
+	     	position:absolute;
+				top:0;
+				left:0;
+	     }
+	     #big img{
+	     	 width: 930px;
+	    	 height: 930px;
+	     }
+	   
+	    
+	    
+	    .left-end{
+	    	width: 380px;
+	    	height: 30px;
+	    	margin-left: 115px;
+	    	font-size: 12px;
+	    	line-height: 30px;
+	    	position: relative;
+	    	
+	    	
+	    }
+	    #ckepop span{
+	    	 display: block;
+	    	 float: left;
+	    	 line-height: 16px;
+	    	 text-align: center;
+	    	 width: 20px;height: 16px;
+	    }
+		#jiajia{
+			width: 20px;height: 16px;
+			display: block;
+			float: left;
+			background: url(../images-tubiao/jiathis_ico.png) no-repeat left;
+			background-position: 0px -1408px;
+		}
+		.info-center{
+			float: left;
+			width: 440px;
+			height: 314px;
+			
+			padding: 10px;
+			margin-top: 5px;
+			font-size: 13px;
+		}
+		.info-center .num{
+			width: 420px;
+			height: 28px;
+			border-top: 1px dotted #000;
+			margin-top: 10px;
+			padding: 4px;
+			
+		}
+		.num p{
+			font-size: 13px;
+			height:18px ;
+			line-height: 18px;
+		}
+		
+		.spxq{
+			width: 420px;
+			height: 90px;
+			background-color: #f3f3f3;
+			padding: 5px 4px;
+		}
+		.price{
+			margin-top: 10px;
+		}
+		.price strong{
+			font-size: 20px;
+			color: red;
+		}
+		.song{
+			margin-top: 20px;
+		}
+		.id{
+			width: 196px;
+			height: 39px;
+			overflow: hidden;
+			margin-top: 30px;
+			font-size: 12px;
+		}
+		.id-left{
+			width: 42px;
+			float: left;
+			height: 25px;
+			text-align: center;
+			line-height: 25px;
+			
+		}
+		.id-right{
+			width: 148px;
+			height: 25px;
+			float: left;
+			border: 1px solid #CECBCE;
+			text-align: center;
+			line-height: 25px;
+		}
+		.add{
+			height: 40px;
+			overflow: hidden;
+			width: 200px;
+		}
+		#jian,#jia{
+			display: block;
+			float: left;
+			width: 30px;
+			height:32px;
+			background-color: #dedede;
+			font-size: 24px;
+			line-height: 28px;
+			text-align: center;
+			
+		}
+		#text{
+			display: block;
+			float: left;
+			width: 60px;
+			height: 30px;
+			font-size: 14px;
+			text-align: center;
+			color: #333;
+			outline:none ;
+			border: 1px solid #dedede;
+		}
+		.btnlist{
+			width: 336px;
+			height: 30px;
+			margin-top: 10px;
+		}
+		.btnlist a{
+			display: block;
+			float: left;
+			padding: 0px 18px;
+			color: #fff;
+			height: 30px;
+			margin-right: 15px;
+			text-align: center;
+            line-height: 30px;
+	    }	
+		.btnlist  a:hover{
+			color: #fff;
+		}	
+		.info-right	{
+			width: 200px;
+			height: 300px;
+			float: left;
+		    font-size: 14px;
+			margin-left: 20px;
+			margin-top: 30px;
+		}
+		.weima{
+			 width:200px;
+			 height: 190px;
+			 border: 1px solid #eee;
+			 padding: 10px;
+			
+		}	
+		.weima img{
+			display: block;
+			width: 140px;
+			height: 140px;
+			margin-left: 30px;
+			
+		}
+	
+		.tv{
+			height: 30px;
+			border: 1px solid #eee;
+			border-radius: 2px;
+			
+			text-align: center;
+			line-height: 30px;
+			margin-top: 20px;
+			text-decoration: underline;
+			background: #f3f3f3
+		}
+	    .mian-footer{
+	    	width: 1200px;
+	    	height: 3000px;
+	    	margin: 0 auto;
+	    	border: 1px solid red;
+	    }
+		.mb-left{
+			width: 222px;
+			height: 1200px;
+			border-right: 1px solid black;
+		}
+		.box-t{
+			width: 222px;
+			height:579px;
+		}
+		
+		

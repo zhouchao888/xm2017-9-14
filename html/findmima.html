@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				overflow-x: hidden;
+			}
+			#header-wrap{
+			width: 100%;
+		    height: 230px;
+		   }
+			#main{
+				width: 100%;
+				height: 450px;
+			}
+			#footer-wrap{
+			 width:100%;
+		    height: 480px;
+		   }   
+		
+		  .main-content{
+		  	 width: 1400px;
+		  	 height: 449px;
+		  	 margin: 0 auto;
+		  	 
+		  	 margin-top: 40px;
+		  }
+			.content-all{
+				width: 885px;
+				height: 449px;
+				margin: 0 auto;
+			
+			}	
+		   .content-all-t{
+		   	 width: 885px;
+		   	 height: 37px;
+		   	 border-bottom: 1px solid #666;
+		   	 
+		   }
+		   .content-all-t p{
+		   	 width: 103px;
+		   	 height: 26px;
+		   	 line-height: 30px;
+		   	 text-align: center;
+		   	 font-size: 22px;
+		   	 margin-left: 10px;
+		   }
+		   .content-top{
+		   	width: 706px;
+		   	height:39px;
+		   	margin: 0 auto;
+		   margin-top: 20px;
+		   	
+		   	background: url(../images/xbPwdTopBg.gif) repeat-x bottom;
+		   
+		   }
+		   .content-top .cc{
+		   	float: left;
+		   	width: 191px;
+		   	height:42px;
+		   	text-align: center;
+		   	line-height: 39px;
+		    margin-top: 1px;
+		   	font-size: 14px;
+		   	font-weight: 700;
+		   	background: url(../images/xbPwdTagTel.gif) no-repeat;
+		   }
+		   .content-top .cc p{
+		   	margin-left: 20px;
+		   } 
+		   .content-m{
+		   	 width: 706px;
+		   	 height: 330px;
+		   	 margin: 0 auto;
+		   	 background: url(../images/xbPwdmiddlebg.gif) repeat-y;
+		   	 border-top: 1px solid #CCCCCC;
+		   	 border-bottom: 1px solid #CCCCCC;
+		   	
+		   }
+		   .content-m .jingkao{
+		   	  width: 535px;
+		   	  height: 46px;
+		   	  margin-top: 20px;
+		   	  padding: 5px;
+              margin-left: 80px;
+              background: #ffffcc;
+              font-size: 14px;
+              border: 1px solid #ffda5b;;
+		   }		 
+		  .telphone{
+		  	  margin-top: 30px;
+		  	  margin-left: 80px;
+		  	  font-size: 14px;
+		  }
+		  #phone{
+		  	  width: 215px;
+		  	  height: 25px;
+		  	  outline:none;
+		  	  border-radius: 2px;
+		  }
+		  .yanzheng{
+		  	   margin-top: 30px;
+		  	   margin-left: 93px;
+		  	   font-size: 14px;
+		  } 
+		  #yanzheng{
+		  	   width: 88px;
+			   height: 25px;
+			   outline: none;
+			   border-radius: 2px;
+		  }	
+		   
+		 
+		  #submit input{
+			width: 80px;
+			height: 24px;
+			background-color: #fc4c65;
+			border: 0;
+			cursor: pointer;
+			text-align: center;
+			line-height: 24px;
+			margin-left: 165px;
+			margin-top: 30px;
+			font-size: 14px;
+    
+		}	 	
+		 .lastms{
+		 	 margin-top: 25px;
+		 	 font-size: 12px;
+		 	 padding-left: 5px;
+		 }  	
+		   
+		</style>
+	</head>
+    <link rel="stylesheet" href="../css/public.css" />
+	<body>
+		<div id="header-wrap"></div>
+		<div id="main">
+			 <div class="main-content">
+			 	<div class="content-all">
+			 		  <div class="content-all-t">
+			 		  	 <p>找回密码:</p>
+			 		    </div>
+			 		    <div class="content-top">
+			 		    	<div class="cc">
+			 		    		<p>通过手机找回密码</p>
+			 		    	</div>
+			 		    </div>
+			 		    
+			 		  <div class="content-m">
+				 		  <div class="jingkao">如果您在风尚购物办公用品网填写过手机号，可以通过手机重新设置您的密码。请填写您的手机号，我们会向您的手机上发送一个验证码。验证码在2个小时内有效。</div>
+				 		  <div class="telphone">
+	                            <label class="label_email"><span class="spanAlert" style="color: red;">*&nbsp;</span>手机号码：</label>
+	                            <input  type="text" maxlength="11" id="phone" >
+	                            <span id="phone-span" style="display: none; color: red;">该号码没有注册</span>
+					      </div>      
+						   <div class="yanzheng">
+					   	  	  	<label class="label_email"><span class="spanAlert" style="color: red;">*&nbsp;</span>验证码：</label>
+                                  <input  type="text" maxlength="4" id="yanzheng" class="dsfs">
+				                  <img src="../images/ShowImage.jpg"/ style="vertical-align:text-bottom"><span class="sperror" id="span_CheckPhone">&nbsp;看不清，换一张</span>
+				                  <span id="yanzheng-span" style="display: none; color: red;">验证码错误</span>
+					   	  	  </div>
+					   	  	  <div id="submit">
+					   	  	  	   <input type="image"  id="btn" value="确认提交" />
+					   	  	  </div>
+					   	  	  <div class="lastms">
+					   	  	  	  <p>您还可以尝试：</p>
+					   	  	  	  <p>致电风尚购物客服热线：4001-677-077</p>
+					   	  	  	  
+					   	  	  </div>
+						  
+			 		  </div>
+			 	</div>
+			 </div>
+		</div>
+		<div id="footer-wrap"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script>
+	          //头部 尾部 加载；
+	   $("#header-wrap").load("pubilc.html #header",function(){
+	   	             $("#fenlei").mouseenter(function(){
+	         	     $("#fenleilist").css("display","block") 
+	         	     
+	         }).mouseleave(function(){
+	         	      $("#fenleilist").css("display","none")   
+	         })
+	       
+	         
+	         $(".list-text").mouseenter(function(){
+	         	     var   index=$(this).index();
+	         	     $(".list-right").eq(index).css("display","block").siblings("list-right").css("display","none")
+	         }).mouseleave(function(){
+	         	     $(".list-right").eq($(this).index()).css("display","none");
+	         })
+	         
+	   	      
+	   	   
+	   	   
+	   	   
+	   });
+	   $("#footer-wrap").load("pubilc.html #footer");
+	   
+	   $("#btn").click(function(){
+	             var str=document.cookie;
+	             var arr=str.split("; ");
+	               for(var i=0;i<arr.length;i++){
+	        	  	 var item=arr[i].split("=");
+	        	  	 if(item[0]=="userphone"){
+	        	  	 	var  userphone=item[1];
+	        	  	 }if(item[0]=="userpwd"){
+	        	  	 	var   userpwd=item[1]
+	        	  	 }
+	        	  }
+	             if($("#phone").val()==userphone&&$("#yanzheng").val()=="0051"){
+	             	        $("#phone-span").hide();
+	             	        $("#yanzheng-span").hide();
+	             	       confirm("找回成功，密码为:"+userpwd +",马上登录") 
+	             	       location.href="denglu.html"
+	             }else{
+	             	   if($("#phone").val()==userphone&&$("#yanzheng").val()!="0051"){
+	             	   	      $("#phone-span").hide();
+	             	   	      $("#yanzheng-span").show();
+	             	   	      return;
+	             	   }
+	             	
+	             	
+	             	   if($("#phone").val()!=userphone){
+	             	   	       $("#phone-span").show();
+	             	   	       return;
+	             	   }
+	             	   if($("#yanzheng").val()!="0051"||$("#yanzheng").val()==""){
+	             	   	        $("#yanzheng-span").show();
+	             	   }
+	             }
+	          
+	      })     	    
+	          	         
+	         
+	               
+	      
+	   
+</script>

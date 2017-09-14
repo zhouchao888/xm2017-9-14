@@ -1,0 +1,260 @@
+body{
+			background:#fafafa ;
+			overflow-x: hidden;
+		}
+		ol li{
+			list-style: none;
+		}
+		
+		#header-wrap{
+			width: 100%;
+		    height: 227px;
+		   
+			
+		
+		}
+		#main{
+			width: 100%;
+		}	
+	     .main-nav{
+	         margin:0 auto;
+			 height: 400px;
+			 position: relative;
+			
+			 text-align: center;
+		}	
+			
+			
+		
+	    .main-nav ul {
+			position: absolute;
+		     left: 0;
+			 top: 0;
+			 z-index: 1;
+			
+		}	
+			
+			
+				  
+		.main-nav ul li{
+			
+			position: absolute;
+			
+			
+		}	
+		
+		
+		.main-nav ol{
+			position: absolute;
+			bottom: 15px;
+			left: 550px;
+		}
+		.main-nav ol li{
+			list-style: none;
+			float: left;
+			width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: default;
+            background-color: #abc;
+            z-index: 999;
+            position: relative;
+            
+		}
+		 .main-nav ol .current{
+            background-color: pink;
+        }
+		#footer-wrap{
+			width:100%;
+		    height: 480px;
+		}   
+		
+		.banner-top{
+			width: 1195px;
+			height: 165px;
+			margin: 0 auto;
+		
+			overflow: hidden;
+		}
+		.banner-top>div{
+			width: 230px;
+			height: 130px;
+			float: left;
+			margin: 5px 3px;
+		}
+		.banner-remai{
+			width: 1200px;
+			height: 740px;
+			margin: 0 auto;
+			
+			position: relative;
+			
+		}
+		.remai-left{
+			width: 400px;
+			height: 665px;
+			border-top: 1px solid #e6e6e6;
+			margin-left: 10px;
+			position: absolute;
+			overflow: hidden;
+			
+		
+			
+		}
+		.remai-left ul{
+			 width: 4000px;
+			 margin: 0;
+			
+		}	 
+		
+		.remai-left ul li {
+			width: 400px;
+		    height: 665px;
+		    float: left;
+		}
+		
+			 
+			  
+		.remai-left ul li img {
+			       width: 400px;
+			       height: 350px;
+			}
+			
+		.remai-left ol{
+			position: absolute;
+			top: 54%;
+			left: 143px;
+		}
+		.remai-left ol li{
+			list-style: none;
+			float: left;
+			width: 15px;
+            height: 15px;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: default;
+            background-color: #abc;
+          }  
+          
+          .remai-left .current{
+          	background-color: pink;
+          }
+          .remai-right{
+          	width: 780px;
+          	height: 667px;
+          	
+          	float: right;
+          }
+          .remai-right ul li{
+          	 width: 240px;
+          	 height:320px;
+          	 float: left;
+          	border: 1px solid #e6e6e6;
+          	margin-left: 12px;
+          	margin-bottom: 12px;
+          	 
+          }
+          .remai-right .pSum{
+          	margin-top: 20px;
+          	margin-left: 10px;
+          	
+          }
+           .remai-right .pPrice	{
+           	color: red; 
+           	font-weight: 900;
+           }
+          .remai-right p{
+          	margin-top:10px;
+          	margin-left: 10px;
+          	font-size: 14px;
+          }
+          .but{
+          	 width: 1200px;
+          	 height: 900px;
+          	 margin: 0 auto;
+          	 clear: both;
+          	 position: relative;
+          	 margin-top: 20px;
+          	 
+          }
+          .but .title{
+          	  height: 36px;
+          	  width: 1200px;
+          	  border-bottom: 1px solid #d91404;
+          	  line-height: 36px;
+          	  position: relative;
+          }
+          .title-right,.title-right1,.title-right2,.title-right3,.title-right4,.title-right5{
+          	position:absolute;
+          	bottom:-1px;
+          	right:0;
+          	height: 36px;
+          	line-height: 36px;
+          	font-size: 12px;
+          
+          }
+           .title  a{
+          	
+          	  
+          	  display: block;
+          	  float: left;
+          	  padding:0  15px;
+          	  cursor: pointer;
+          	
+          	  
+          	  
+          }
+          .sel{
+          	  margin: -2px -2px 0 -2px;
+          	  border: 2px solid #d91404;
+              border-bottom: none;
+          	  background:#fafafa ;
+          	  color:#d91404 ;
+          }
+          .bigbd{
+          	  height: 380px;
+          	  width: 588px;
+          	  overflow: hidden;
+          	  float: left;
+          	  margin-right: 23px;
+          
+          }
+          .bd{
+          	margin-top: 24px;
+          	height: 784px;
+          	padding: 10px 0;
+          	font-size: 12px;
+          }
+          .bd .pName{
+          	  height: 40px;
+          	  padding: 10px 10px 0 10px;
+          	  line-height: 20px;
+          	  margin-top: 20px;
+          }
+          .bd .pSum{
+          	    position: relative;
+          	    height: 24px;
+          	    font-size: 12px;
+          	    line-height: 24px; 
+          	    padding: 0 10px;
+          	    color:red ;
+          	    font-weight: 900;
+          }
+          .bd ul{
+          	   height: 812px;
+          	   width: 1223px;
+          	   margin-top: 10px;
+          }
+           .bd ul li{
+           	    float: left;
+           	    width: 280px;
+           	    height:381px;
+           	    margin-bottom: 23px;
+           	    margin-right: 23px;
+           	    border: 1px solid #e6e6e6;
+           } 
+          .bd .pImg img{
+          	      height: 280px;
+          	      width: 280px;
+          } 
